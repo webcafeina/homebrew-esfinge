@@ -17,7 +17,7 @@
 class Esfinge < Formula
   desc "Cifra y descifra contraseñas y ficheros con una clave"
   homepage "https://esfinge.webcafeina.com/"
-  version "2.78.0"
+  version "2.79.0"
   license :cannot_represent
 
   livecheck do
@@ -27,23 +27,23 @@ class Esfinge < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/webcafeina/esfinge/releases/download/v2.78.0/esfinge-2.78.0-darwin-arm64"
-      sha256 "5e32e743ad3fdeb89411d5c0c79fb8d33b7bc06dc629ad172154ca0e1cd6d51b"
+      url "https://github.com/webcafeina/esfinge/releases/download/v2.79.0/esfinge-2.79.0-darwin-arm64"
+      sha256 "6eabf408e8ece8fd1da4c2adfb455d9cbe908a5cf8cc3d20d35b3cbd50b6e726"
     end
     on_intel do
-      url "https://github.com/webcafeina/esfinge/releases/download/v2.78.0/esfinge-2.78.0-darwin-amd64"
-      sha256 "e6b0a786f8d73c3cd9af4d71923159ed98c680ba6fdd4f85e6ca3b4fafb11a4e"
+      url "https://github.com/webcafeina/esfinge/releases/download/v2.79.0/esfinge-2.79.0-darwin-amd64"
+      sha256 "a766a0b3738484aa680206eaf685254a709fdfade7c2dc3eb9806b86092cd229"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/webcafeina/esfinge/releases/download/v2.78.0/esfinge-2.78.0-linux-arm64"
-      sha256 "f3ded88447b0ec25d28309ab8310e7f3a73afa501ee113f30af7dd1c941d1a39"
+      url "https://github.com/webcafeina/esfinge/releases/download/v2.79.0/esfinge-2.79.0-linux-arm64"
+      sha256 "45b4f575dd3f6936133b9e5822a4a3c5d277d70cab9b2bb9dade83370766637e"
     end
     on_intel do
-      url "https://github.com/webcafeina/esfinge/releases/download/v2.78.0/esfinge-2.78.0-linux-amd64"
-      sha256 "2f4894d20b476251d78649ba6bbe3b3f87eb176ca3e70c4b1f6c45b3902fb48b"
+      url "https://github.com/webcafeina/esfinge/releases/download/v2.79.0/esfinge-2.79.0-linux-amd64"
+      sha256 "d885c5881311f5ccbbe055ae092de5dfccb28e49e98c7e76d8e9b3d92a5566d6"
     end
   end
 
