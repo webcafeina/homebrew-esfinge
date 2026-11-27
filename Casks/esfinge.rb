@@ -7,10 +7,10 @@
 # Apolo, y con la forma de hoy: el `postflight do` de antes está obsoleto desde Homebrew 7 y
 # `--no-quarantine` ya no existe.
 cask "esfinge" do
-  version "2.79.1"
-  sha256 "784f4f59751c232db98677ce98f7532562df240c8ce1bbe659932496ce12ee85"
+  version "2.80.0"
+  sha256 "7465b47b5e26158a82da642a31fcc6f1b19eb309382052bdf40f42e617f4560f"
 
-  url "https://github.com/webcafeina/esfinge/releases/download/v#{version}/Esfinge-2.79.1.dmg"
+  url "https://github.com/webcafeina/esfinge/releases/download/v#{version}/Esfinge-2.80.0.dmg"
   name "Esfinge"
   desc "Cifra y descifra contraseñas y ficheros con una clave"
   homepage "https://esfinge.webcafeina.com/"
